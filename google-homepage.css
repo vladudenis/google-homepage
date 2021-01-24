@@ -1,0 +1,46 @@
+* {
+	font-family: Arial;
+}
+
+p{
+	font-size: 12px;
+}
+
+div.container{
+	display: block;
+	text-align: center;
+	margin-top: 100px;
+}
+
+div.form{
+	display: block;
+	text-align: center;
+	margin-top: 20px; 
+}
+
+div.wrapper{
+	display: block;
+	text-align: center;
+	margin-top: 25px;
+}
+
+form{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+#search-box{
+	width: 560px;
+	height: 30px;
+	font-size: 16px;
+	padding-left: 15px; 
+	padding-right: 15px;
+}
+
+button{
+	height: 30px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
