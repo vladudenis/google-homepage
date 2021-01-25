@@ -6,6 +6,10 @@ p{
 	font-size: 12px;
 }
 
+p a{
+	text-decoration: none;
+}
+
 div.container{
 	display: block;
 	text-align: center;
@@ -22,6 +26,10 @@ div.wrapper{
 	display: block;
 	text-align: center;
 	margin-top: 25px;
+}
+
+div.navbar{
+	display: inline;
 }
 
 form{
@@ -43,4 +51,62 @@ button{
 	height: 30px;
 	margin-right: 10px;
 	margin-bottom: 20px;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	display: inline;
+}
+
+li a{
+	padding: 6px;
+	text-decoration: none;
+	color: #616161;
+}
+
+li a:hover{
+	text-decoration: underline;
+}
+
+ul.upper{
+	text-align: right;
+}
+
+
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #f5f5f5;
+}
+
+#country{
+	text-decoration: none;
+	color: #616161;
+	padding-top: 5px;
+	padding-left: 20px;
+	font-size: 14px;
+}
+
+ul#top{
+	text-align: right;
+	padding: 12px;
+}
+
+ul#top li a{
+	font-size: 14px;
+}
+
+ul#bot{
+	padding: 12px;
+}
+
+ul#bot li a{
+	font-size: 14px;
 }
